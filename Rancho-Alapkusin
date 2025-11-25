@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #faf7f2;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #2a7ae2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+      /* Ulepszony styl mobilny */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section {
+        padding: 10px;
+      }
+      .card {
+        padding: 15px;
+      }
+    }/* Nowoczesne kolory i styl naturalny */
+body {
+  background: #faf7f2;
+  font-family: 'Arial', sans-serif;
+}
+header {
+  background: linear-gradient(135deg, #7abf8e, #4d8f6e);
+  padding: 30px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card {
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  color: #4d8f6e;
+}
+
+  </style>
+</head>
+<body>
+  <nav style="position:sticky; top:0; background:white; padding:10px 20px; box-shadow:0 2px 6px rgba(0,0,0,0.15); display:flex; gap:20px; justify-content:center; z-index:100;">
+    <a href="#hodowla" style="text-decoration:none; color:#4d8f6e; font-weight:600;">O hodowli</a>
+    <a href="#alpaki" style="text-decoration:none; color:#4d8f6e; font-weight:600;">Nasze alpaki</a>
+    <a href="#produkty" style="text-decoration:none; color:#4d8f6e; font-weight:600;">Produkty</a>
+    <a href="#galeria" style="text-decoration:none; color:#4d8f6e; font-weight:600;">Galeria</a>
+    <a href="#kontakt" style="text-decoration:none; color:#4d8f6e; font-weight:600;">Kontakt</a>
+  </nav>
+  <header>
+    <h1>Rancho Alpakusin</h1>
+    <p>Hodowla alpak • Sprzedaż alpak, runa, kołder, poduszek oraz naturalnego nawozu</p>
+    <div style="margin-top:20px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="#produkty" style="background:#ffffff; color:#4d8f6e; padding:12px 20px; border-radius:25px; text-decoration:none; font-weight:bold; box-shadow:0 3px 8px rgba(0,0,0,0.15);">Zobacz ofertę</a>
+      <a href="#kontakt" style="background:#4d8f6e; color:#fff; padding:12px 20px; border-radius:25px; text-decoration:none; font-weight:bold; box-shadow:0 3px 8px rgba(0,0,0,0.2);">Skontaktuj się</a>
+    </div>
+  </header>  <section>
+    <div class="card">
+      <h2>O hodowli</h2>
+      <p>Rancho Alpakusin to kameralna hodowla położona w miejscowości Nekielka. Nasze alpaki żyją w spokojnym, naturalnym środowisku, co pozwala im rozwijać się zdrowo i bez stresu. Dbamy o ich dobrostan, jakość runa oraz przyjazne relacje ze zwiedzającymi.</p>
+    </div><div class="card">
+  <h2>Nasze alpaki</h2>
+  <p>Na Rancho Alpakusin prowadzimy sprzedaż młodych oraz dorosłych alpak. Każda z nich ma wyjątkowy charakter i jest otoczona pełną opieką. Runo naszych alpak wyróżnia się wysoką jakością i naturalną miękkością.</p>
+</div>
+
+<div class="card">
+  <h2 id="kontakt">Kontakt i wizyta</h2>
+  <p>Chcesz odwiedzić alpaki, zapytać o runo lub zaplanować spotkanie edukacyjne? Tu możemy dodać Twój e-mail, numer telefonu oraz lokalizację (bez dokładnego adresu, jeśli wolisz).</p>
+</div>
+  <div class="card">
+  <h2 id="produkty">Nasze produkty</h2>
+  <p>Oferujemy:</p>
+  <ul style="list-style:none; padding-left:0;">
+    <li>🦙 Sprzedaż alpak</li>
+    <li>🧵 Runo alpaki najwyższej jakości</li>
+    <li>🛌 Kołdry i poduszki z alpaki — wykonywane na zamówienie</li>
+    <li>🌱 Naturalny nawóz — <em>kupa alpaki</em></li>
+    <li>✔️ Sprzedaż alpak</li>
+    <li>✔️ Runo alpaki najwyższej jakości</li>
+    <li>✔️ Kołdry i poduszki z alpaki — wykonywane na zamówienie</li>
+    <li>✔️ Naturalny nawóz — <em>kupa alpaki</em></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Kontakt i wizyta</h2>
+  <p><strong>Adres:</strong><br>Nekielka, ul. Nekielska 89<br>62-330 Nekla</p>
+  <p><strong>Telefon:</strong> 510 197 150</p>
+  <p>Zapraszamy do odwiedzin w naszej hodowli oraz kontaktu w sprawie zakupu alpak lub produktów z runa.</p>
+</div>
+  <div class="card">
+  <h2 id="alpaki">Nasze alpaki</h2>
+  <h3>Samice</h3>
+  <ul>
+    <li>🦙 Gienia (najstarsza)</li>
+    <li>🦙 Arica</li>
+    <li>🦙 Bibi</li>
+    <li>🦙 Harda</li>
+    <li>🦙 Urdis</li>
+    <li>🦙 Hermiona</li>
+    <li>🦙 Miłka</li>
+    <li>🦙 Damorka</li>
+  </ul>
+  <h3>Samce</h3>
+  <ul>
+    <li>🦙 Ariel — główny reproduktor</li>
+    <li>🦙 Piernik</li>
+    <li>🦙 Duszan</li>
+    <li>🦙 Dobromir</li>
+    <li>🦙 Sambor</li>
+    <li>🦙 Sobiesław</li>
+    <li>🦙 Persi</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2 id="galeria">Galeria zdjęć</h2>
+  <p>Wkrótce dodamy tu zdjęcia Twoich pięknych alpak. Możesz je wysłać w dowolnym momencie — dodam je automatycznie.</p>
+</div>
+
+<div class="card">
+  <h2 id="kontakt">Kontakt i wizyta</h2>
+  <p><strong>Adres:</strong><br>Nekielka, ul. Nekielska 89<br>62-330 Nekla</p>
+  <p><strong>Telefon:</strong> 510 197 150</p>
+  <p>Zapraszamy do odwiedzin w naszej hodowli oraz kontaktu w sprawie zakupu alpak lub produktów z runa.</p>
+</div>
+
+  </section>  <footer>
+    © 2025 Twoja Strona
+  </footer>
+</body>
+</html>
